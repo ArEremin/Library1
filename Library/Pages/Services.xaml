@@ -16,8 +16,8 @@
                         <TextBlock x:Name="Price" TextWrapping="Wrap"></TextBlock>
                         <TextBlock x:Name="Discount" TextWrapping="Wrap"></TextBlock>
                     </StackPanel>
-                    <StackPanel x:Name="DGstack" HorizontalAlignment="Center">
-                    <DataGrid Name="DG" AutoGenerateColumns="False" HorizontalAlignment="Left" CanUserAddRows="False" IsReadOnly="True" Width="600" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                    <StackPanel x:Name="DataGridPanel" HorizontalAlignment="Center">
+                    <DataGrid Name="Data" AutoGenerateColumns="False" HorizontalAlignment="Left" CanUserAddRows="False" IsReadOnly="True" Width="600" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
                         <DataGrid.Columns>
                             <DataGridTemplateColumn>
                                 <DataGridTemplateColumn.CellTemplate>

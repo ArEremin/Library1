@@ -27,7 +27,7 @@ namespace Library.Pages
         public Services()
         {
             InitializeComponent();
-            DG.ItemsSource = BookList;
+            Data.ItemsSource = BookList;
         }
         int i = -1;
         int Index;
